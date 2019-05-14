@@ -1,0 +1,119 @@
+a {
+    color: #9dafff;
+    text-decoration: none;
+}
+a:visited {
+    color: #517298;
+}
+a:hover {
+    color: #a0e0ff;
+}
+
+
+.content {
+    font: 100 1.5em Helvetica, Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.78);
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.highlight { background-color: rgba(0, 176, 21, 0.33); }
+.colorText {
+    color: rgba(0, 176, 21, 0.68);
+}
+.break-word {
+  word-wrap: break-word;
+}
+.underline {
+    text-decoration: underline;
+    -webkit-text-decoration-color: rgba(0, 176, 21, 0.33); /* safari still uses vendor prefix */
+    text-decoration-color: rgba(0, 176, 21, 0.33);
+}
+
+
+
+h1 {
+    color: rgba(0, 176, 21, 0.68);
+
+    margin: .7em;
+    text-align: center;
+    font-size: 3.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+blockquote {
+  background: #fbfbfb;
+  border-left: 10px solid rgba(0, 176, 21, 0.6);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: rgba(0, 176, 21, 0.6);
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+img {
+    max-width: 70%;
+    height:auto;
+    object-fit: contain;
+        margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+ /* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    background-color: rgba(100, 100, 100, 0.07);
+
+}
+.rightside {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+    background-color: rgba(100, 100, 100, 0.07);
+
+}
+.ime_c {
+    text-align: center;
+}
+.item {
+    flex-direction: column
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+    font: 20px Helvetica, Arial, sans-serif;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
