@@ -23,7 +23,7 @@ with open(html_file, "rt") as src:
                     ime = " ".join(ime_t.split("_"))
                     povezava = povezava_t.strip()
                     html2insert = """<div class="item">
-                                    <p class="ime_c"><b><span class="colorText">Korenjak: </span></b> <a class = "{0}" href="{2}">{0}</a></p>
+                                    <p class="ime_c"><b><span class="colorText">Korenjak: </span></b> <a class = "{0}" href="{2}" target="blank_">{0}</a></p>
                                     <img src="./ljudje/{1}" alt="{0}"/>
                                     </div>
                                     """.format(ime, slika, povezava)
