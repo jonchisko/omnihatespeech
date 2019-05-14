@@ -13,8 +13,8 @@ a:hover {
 .content {
     font: 100 1.5em Helvetica, Arial, sans-serif;
     color: rgba(0, 0, 0, 0.78);
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 .highlight { background-color: rgba(0, 176, 21, 0.33); }
 .colorText {
