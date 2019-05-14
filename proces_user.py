@@ -2,7 +2,7 @@
 seznam = []
 
 html_file = "veganisonevarni2py.html"
-to_write = open("veganisonevarni.html", "wt")
+to_write = open("index.html", "wt")
 
 with open(html_file, "rt") as src:
     for vrstica in src:
